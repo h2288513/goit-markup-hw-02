@@ -102,8 +102,10 @@ button:hover {
     text-align: center;
 }
 
+/* Our Team Section */
 .team {
-    background: hwb(240 90% 4% / 0.843);
+    background: rgba(240, 240, 255, 0.9);
+    /* Светло-голубой фон */
     text-align: center;
     padding: 50px;
 }
@@ -123,10 +125,18 @@ button:hover {
 }
 
 .team li {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 200px;
     text-align: center;
 }
+
+/* Our Portfolio Section */
 .portfolio {
+    background: #f8f9fc;
+    /* Светлый фон */
     text-align: center;
     padding: 50px;
 }
@@ -141,14 +151,17 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 100px;
-    padding: 10;
+    gap: 40px;
+    padding: 0;
 }
 
 .portfolio li {
-    max-width: 200px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 270px;
     text-align: center;
-    gap: 20px;
 }
 
 
